@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#nav-bar{
+  background-color:#BDD9C2;
+  width: 100vw;
+  height: 10vh;
+}
+li{
+  margin-right: 5vw;
+
+}
+li:hover{
+  border-bottom: 2px solid black;
+  cursor: pointer;
+}
+.hero-section{
+  display: flex;
+  height: 85vh;
+}
+span{
+  font-size: 3rem;
+  font-weight: 700;
+}
+.right{
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  margin: 80px 90px ;
+  background-size: cover;
+  background-image: url(https://media.istockphoto.com/id/1176363686/vector/smiling-young-asian-girl-profile-avatar-vector-icon.jpg?s=612x612&w=0&k=20&c=QuyZJNKexFQgDPr9u91hKieWKOYbaFxPb0b0gwmd-Lo=);
+  border: 2px solid black;
+}
+.containerContact{
+  height: 80vh;
+}
+.continerAbout{
+  height: 80vh;
+}
+.cont{
+  font-size: 5.5rem;
+  text-align: center  ;
+}
+.abou{
+  font-size: 5.5rem;
+  text-align: center  ;
+}
+/* footer  */
+.footer{
+  height: 50vh;
+  width: 100vw;
+  background-color: #BDD9C2;
+  display: flex;
+}
+.first,.second{
+  padding: 40px;
+}
+.third{
+  padding: 100px;
+}
+.footerOption{
+  padding: 60px;
+  gap: 5.5px;
+}
+.footerOpt{
+  gap: 5.5rem;
+}
